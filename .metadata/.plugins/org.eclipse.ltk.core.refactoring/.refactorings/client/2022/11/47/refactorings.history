@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move 2 elements to &apos;server/src/main/resources&apos;&#x0D;&#x0A;- Original project: &apos;client&apos;&#x0D;&#x0A;- Destination element: &apos;server/src/main/resources&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     employeeDML.sql&#x0D;&#x0A;     schema.sql&#x0D;&#x0A;- Update references to refactored element" description="Move files" destination="=server/src\/main\/resources=/maven.pomderived=/true=/" element1="src/main/resources/employeeDML.sql" element2="src/main/resources/schema.sql" files="2" flags="589830" folders="0" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1668673009561" units="0" version="1.0"/>
+</session>

@@ -1,0 +1,8 @@
+FROM dockerfile/java:oracle-java8
+
+VOLUME /tmp
+ADD client.jar /opt/client/
+EXPOSE 8080
+WORKDIR /opt/client/
+ENTRYPOINT ["java","-jar","/client.jar"]
+CMD ["java", "-Djava.security.egd=file:/dev/./urandom", "-Xms512m", "-Xmx1g", "-jar", "client.jar"]
